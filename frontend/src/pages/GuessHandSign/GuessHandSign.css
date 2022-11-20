@@ -1,0 +1,129 @@
+.guess-hand-sign {
+  height: 100vh;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: calc(100vw - 600px);
+}
+
+.guess-hand-sign > .main {
+  height: 100vh;
+  margin: 0 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.guess-hand-sign > .main > .top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 600px;
+  font-size: .9rem;
+}
+
+.guess-hand-sign > .main > .top > .difficulty-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.guess-hand-sign > .main > .top > .difficulty-container > select {
+  background-color: inherit;
+  font-family: inherit;
+  color: #42C9A3;
+  border: none;
+  outline: none;
+}
+
+.guess-hand-sign > .main > .top > .btn-container {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+}
+
+.guess-hand-sign > .main > .top > .btn-container > button {
+  background-color: inherit;
+  font-family: inherit;
+  color: #42C9A3;
+  outline: none;
+  border: none;
+  width: 70px;
+}
+
+.guess-hand-sign > .main > .top > .btn-container > button:hover {
+  cursor: pointer;
+}
+
+.guess-hand-sign > .main > .top > .btn-container > .divider {
+  border-left: 2px solid white;
+  height: 20px;
+  position: relative;
+}
+
+.guess-hand-sign > .main > .top > .timer-container {
+  justify-self: end;
+}
+
+.guess-hand-sign > .main > .top > .timer-container > span > span {
+  color: #42C9A3;
+}
+
+.guess-hand-sign > .main > .asl-container {
+  width: 600px;
+  height: 400px;
+  background-color: #182142;
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guess-hand-sign > .main > .asl-container > img {
+  height: 350px;
+  width: 350px;
+}
+
+.guess-hand-sign > .main > .bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 600px;
+  font-size: .9rem;
+}
+
+.guess-hand-sign > .main > .bottom > span > span {
+  color: #42C9A3;
+}
+
+.guess-hand-sign > .main > .bottom > span:nth-child(2) {
+  justify-self: center;
+}
+
+.guess-hand-sign > .main > .bottom > span:nth-child(3) {
+  justify-self: end;
+}
+
+.guess-hand-sign > .main > .letter-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+  margin-top: 10px;
+}
+
+.guess-hand-sign > .main > .letter-container > button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: #42C9A3;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 7px;
+}

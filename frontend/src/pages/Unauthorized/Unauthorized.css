@@ -1,0 +1,52 @@
+.unauthorized {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../assets/waitingForApprovalbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unauthorized > .container {
+  height: 350px;
+  width: 700px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #182240;
+  padding: 60px 60px 60px 60px;
+}
+
+.unauthorized > .container > .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.unauthorized > .container > .header > h1> span {
+  color:#43c9a3;
+}
+
+.unauthorized > .container > .header > img {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.unauthorized > .container > .body {
+  display: flex;
+  flex-direction: row;
+}
+
+.unauthorized > .container > .body> .side > img {
+  height: 100px;
+  margin-top: 40px;
+  margin-left:40px;
+}
+
+.unauthorized > .container > .body > .content {
+  padding-top: 30px;
+  padding-left: 25px;
+  font-size: 15px;
+}

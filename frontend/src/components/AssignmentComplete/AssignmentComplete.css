@@ -1,0 +1,53 @@
+.assignment-complete {
+  height: 100%;
+  width: 100%;
+  background-color: var(--navyBlue);
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.assignment-complete > img {
+  height: 130px;
+  margin-bottom: 10px;
+}
+
+.assignment-complete h2 {
+  max-width: 200px;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.assignment-complete h2 span {
+  color: var(--aquaGreen);
+}
+
+.assignment-complete hr {
+  width: 40%;
+}
+
+.assignment-complete .data-container {
+  width: 100%;
+  padding: 0 45px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  font-size: 0.9rem;
+}
+
+.assignment-complete .data-container span span {
+  color: var(--aquaGreen);
+}
+.assignment-complete .data-container .check-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.assignment-complete .data-container img {
+  height: 50px;
+}

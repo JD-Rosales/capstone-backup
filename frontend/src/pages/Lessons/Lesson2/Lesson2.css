@@ -1,0 +1,74 @@
+
+.lesson-2 {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 40px;
+  }
+  
+  .lesson-2 header {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: var(--navyBlue);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .lesson-2 header h1 span {
+    color: var(--aquaGreen)
+  }
+  
+  .lesson-2 header img {
+    height: 70px;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+.lesson-2 hr {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+.lesson-2 main {
+    width: 100%;
+    height: 450px;
+    max-height: 450px;
+    overflow-y: auto;
+  }
+  
+.lesson-2 main h2 span {
+    color: var(--aquaGreen);
+  }
+  
+.lesson-2 main ul li{
+    list-style-type:disc ;
+    margin-left: 2em;
+  
+  }
+  .lesson-2 main .ul li{
+    list-style: none;
+    margin-left: 3em;
+  }
+  .lesson-2 main .ul li::before{
+    content: "*";
+  }
+.lesson-2 main ol li{
+    margin-left: 2em;
+  }
+.lesson-2 main ol li{
+    list-style-type:decimal;
+  }
+  
+.lesson-2 main span {
+    color: var(--aquaGreen)
+  }
+  
+.lesson-2 main img { 
+    padding-right: 1em;
+  }
+

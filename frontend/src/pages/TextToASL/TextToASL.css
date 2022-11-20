@@ -1,0 +1,57 @@
+.text-asl {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 30px;
+}
+
+.text-asl main .char-length {
+  display: block;
+  padding-bottom: 5px;
+  font-size: .9rem;
+}
+
+.text-asl main .img-container {
+  background-color: var(--navyBlue);
+  height: 420px;
+  width: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.text-asl main .img-container img {
+  height: 80px;
+}
+
+.text-asl main .input-container {
+  margin-top: 20px;
+}
+
+.text-asl main .input-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 20px 15px 20px 20px;
+  background-color: #182142;
+  color: var(--aquaGreen);
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 7px;
+  font-family: "Poppins";
+}
+
+.text-asl main .input-container input::placeholder {
+  color: rgb(105, 105, 105);
+  opacity: 1;
+  letter-spacing: 0px;
+}

@@ -1,0 +1,122 @@
+.choose-hand {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 40px;
+  }
+  
+  .choose-hand main {
+    width: 100%;
+  }
+  
+  .choose-hand main header  {
+    background-color: var(--navyBlue);
+    border-radius: 15px;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+  }
+  
+  .choose-hand main header h1 {
+    line-height: 2rem;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .choose-hand main header h1 span{
+    color: var(--aquaGreen);
+  }
+  
+  .choose-hand main header p {
+    color: var(--whiteGray);
+  }
+  
+  .choose-hand main header img {
+    height: 250px;
+  }
+  
+  .choose-hand main .profile-container {
+    background-color: var(--navyBlue);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .choose-hand main .profile-container .img-container {
+    height: 100px;
+    width: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+  }
+  
+  .choose-hand main .profile-container .img-container .img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--navyBlue);
+  }
+  
+  .choose-hand main .profile-container > span {
+    color: var(--aquaGreen);
+    cursor: pointer;
+    padding: 10px 0;
+  }
+  
+  .choose-hand main form hr {
+    margin-top: 30px;
+    border: .1px solid light gray;
+  }
+
+  .choose-hand main .hand-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .choose-hand main .hand-container .choices-container span span {
+     color: var(--aquaGreen);
+  }
+
+  .choose-hand main .hand-container .choices-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    background-color: var(--navyBlue);
+    margin-right: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .choose-hand main .hand-container .choices-container:hover {
+    box-shadow: -1px 1px 20px 4px rgba(18,148,148,0.55);
+    -webkit-box-shadow: -1px 1px 20px 4px rgba(18,148,148,0.55);
+    -moz-box-shadow: -1px 1px 20px 4px rgba(18,148,148,0.55);
+    transition: box-shadow 0.4s ease-in-out;
+    
+  }
+  
+  .choose-hand main .hand-container .choices-container img {
+    height: 150px;
+    margin-top: 20px;
+    color: red;
+  }
+
+  .choose-hand main hr {
+    margin-top: 30px;
+    border: .1px solid light gray;
+  }

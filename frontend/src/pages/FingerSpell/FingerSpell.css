@@ -1,0 +1,164 @@
+.finger-spell {
+  height: 100vh;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: calc(100vw - 600px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finger-spell > .main {
+  height: 100vh;
+  margin: 0 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 530px;
+  /* background-color: #42C9A3; */
+}
+
+.finger-spell > .main > .top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 530px;
+  font-size: .9rem;
+}
+
+.finger-spell > .main > .top > .top-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.finger-spell > .main > .top > .top-left > span > select {
+  background-color: inherit;
+  font-family: inherit;
+  color: #42C9A3;
+  border: none;
+  outline: none;
+}
+
+.finger-spell > .main > .top > .top-left > span > span {
+  color: #42C9A3;
+}
+
+.finger-spell > .main > .top > .btn-container {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+}
+
+.finger-spell > .main > .top > .btn-container > button {
+  background-color: inherit;
+  font-family: inherit;
+  color: #42C9A3;
+  outline: none;
+  border: none;
+  width: 70px;
+}
+
+.finger-spell > .main > .top > .btn-container > button:hover {
+  cursor: pointer;
+}
+
+.finger-spell > .main > .top > .btn-container > .divider {
+  border-left: 2px solid white;
+  height: 20px;
+  position: relative;
+}
+
+.finger-spell > .main > .top > .top-right {
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.finger-spell > .main > .top > .top-right > span > span {
+  color: #42C9A3;
+}
+
+.finger-spell > .main > .camera-container {
+  width: 530px;
+  height: 400px;
+  background-color: #182142;
+  position: relative;
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.finger-spell > .main > .camera-container > .camera {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.finger-spell > .main > .camera-container > .canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  border-radius: inherit;
+}
+
+.finger-spell > .main > .camera-container > .game-loader {
+  position: absolute;
+  top: 0;
+  right: left;
+  height: 100%;
+  width: 100%;
+  z-index: 11;
+}
+
+.finger-spell > .main > .bottom-indicator {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 530px;
+  font-size: .9rem;
+}
+
+.finger-spell > .main > .bottom-indicator > span > span {
+  color: #42C9A3;
+}
+
+.finger-spell > .main > .bottom-indicator > span:nth-child(2) {
+  justify-self: center;
+}
+
+.finger-spell > .main > .bottom-indicator > span:nth-child(3) {
+  justify-self: end;
+}
+
+.finger-spell > .main > .bottom {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 20px; */
+  width: 530px;
+}
+
+.finger-spell > .main > .bottom > div {
+  background-color: #182142;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.finger-spell > .main > .bottom > div > span{
+  font-size: 2.2rem;
+  padding: 0 3px 0 3px;
+}
+
+.finger-spell > .main > .bottom > div > .colored-letter {
+  color: #42C9A3;
+  font-size: 3rem;
+}

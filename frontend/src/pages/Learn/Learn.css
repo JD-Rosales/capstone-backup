@@ -1,0 +1,39 @@
+.learn {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.learn main {margin-top: 20px;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 30px;
+}
+
+.learn main header  {
+  background-color: var(--navyBlue);
+  border-radius: 15px;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+}
+
+.learn main header h1 {
+  line-height: 2rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.learn main header h1 span{
+  color: var(--aquaGreen);
+}
+
+.learn main header p {
+  color: var(--whiteGray);
+}
+
+.learn main header img {
+  height: 200px;
+}

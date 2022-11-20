@@ -1,0 +1,109 @@
+.asl-translator {
+  height: 100vh;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: calc(100vw - 600px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asl-translator > .main {
+  height: 100vh;
+  margin: 0 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 30px;
+}
+
+.asl-translator > .main > .top {
+  width: 530px;
+  margin-bottom: 15px;
+}
+
+.asl-translator > .main > .top > span {
+  font-size: .9rem;
+}
+
+.asl-translator > .main > .top > span > span:nth-child(1){
+  cursor: pointer;
+}
+
+.asl-translator > .main > .top > span > span{
+  color: #42C9A3;
+}
+
+.asl-translator > .main > .top .detection-type {
+  float: right;
+}
+
+.asl-translator > .main > .top .detection-type select {
+  outline: none;
+  font-family: "Poppins";
+  background-color: #12172D;
+  color: #fff;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 7px;
+  margin-left: 5px;
+}
+
+.asl-translator > .main > .top .detection-type select option {
+  font-size: .6rem;
+  outline: none;
+}
+
+.asl-translator > .main  .camera-container {
+  width: 530px;
+  height: 400px;
+  background-color: #182142;
+  position: relative;
+  border-radius: 20px;
+}
+
+.asl-translator > .main  .camera-container > .camera {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.asl-translator > .main  .camera-container > .canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-radius: inherit;
+}
+
+.asl-translator > .main > .bottom {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.asl-translator > .main > .bottom > span:nth-child(1) {
+  font-size: 1rem;
+}
+
+.asl-translator > .main > .bottom > span:nth-child(2) {
+  background-color: #182142;
+  font-family: inherit;
+  width: 100%;
+  height: 50px;
+  font-size: 2rem;
+  color: inherit;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.asl-translator > .main > .bottom > span:nth-child(3) {
+ font-size: .8rem;
+ font-weight: 300;
+}

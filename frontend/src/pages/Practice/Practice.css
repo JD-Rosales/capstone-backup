@@ -1,0 +1,115 @@
+.practice {
+  height: 100vh;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: calc(100vw - 600px);
+}
+
+.practice > .main {
+  height: 100vh;
+  margin: 0 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.practice > .main > .top {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.practice > .main > .top > span {
+  font-size: .9rem;
+}
+
+.practice > .main > .top > span > span:nth-child(1){
+  cursor: pointer;
+}
+
+.practice > .main > .top > span > span{
+  color: #42C9A3;
+}
+
+.practice > .main > .top > span:nth-child(4){
+  text-align: center;
+}
+
+.practice > .main > .container {
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.practice > .main > .container > .camera-container{
+  position: relative;
+  border-radius: 20px;
+  background-color: #182142;
+  margin-right: 5px;
+}
+
+.practice > .main > .container > .camera-container > .camera {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.practice > .main > .container > .asl-container{
+  position: relative;
+  border-radius: 20px;
+  background-color: #182142;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.practice > .main > .container > .asl-container > img{
+  width: 200px;
+  height: 200px;
+}
+
+.practice > .main > .status-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.practice > .main > .status-container > img {
+  height: 50px;
+  width: 50px;
+}
+
+.practice > .main > .text {
+  font-size: .8rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.practice > .main > .btn-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.practice > .main > .btn-container > button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: #42C9A3;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 7px;
+}
+
+.practice > .main > .btn-container > button:focus {
+  background-color: #182142;
+}

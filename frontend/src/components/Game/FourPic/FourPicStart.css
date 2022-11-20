@@ -1,0 +1,22 @@
+.four-pic-start {
+  height: 100%;
+  width: 100%;
+  background-color: var(--navyBlue);
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.four-pic-start h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+.four-pic-start img {
+  height: 130px;
+  margin: 25px 0;
+}

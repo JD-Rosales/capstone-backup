@@ -1,0 +1,16 @@
+.teacher-assignments {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 30px;
+}
+
+.teacher-assignments h1 span {
+  color: var(--aquaGreen);
+}
+
+.teacher-assignments main {
+  width: 100%;
+}

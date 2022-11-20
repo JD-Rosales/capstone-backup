@@ -1,0 +1,87 @@
+.update-profile {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 100vh;
+  padding: 0 40px;
+}
+
+.update-profile main {
+  width: 100%;
+}
+
+.update-profile main header  {
+  background-color: var(--navyBlue);
+  border-radius: 15px;
+  padding: 20px 50px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.update-profile main header h1 {
+  line-height: 2rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.update-profile main header h1 span{
+  color: var(--aquaGreen);
+}
+
+.update-profile main header p {
+  color: var(--whiteGray);
+}
+
+.update-profile main header img {
+  height: 250px;
+}
+
+.update-profile main .profile-container {
+  background-color: var(--navyBlue);
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.update-profile main .profile-container .img-container {
+  height: 150px;
+  width: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: #F0F0F0;
+}
+
+.update-profile main .profile-container .img-container .img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--navyBlue);
+  cursor: pointer;
+}
+
+.update-profile main .profile-container > span {
+  color: var(--aquaGreen);
+  cursor: pointer;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.update-profile main form hr {
+  margin-top: 30px;
+  border: .1px solid light gray;
+}

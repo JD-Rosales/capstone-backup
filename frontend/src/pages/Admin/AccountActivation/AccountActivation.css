@@ -1,0 +1,60 @@
+.account-activation {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 40px;
+}
+
+.account-activation header {
+  display: flex;
+  flex-direction: row;
+}
+
+.account-activation header .header-text {
+  width: 50%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.account-activation header .header-img {
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-activation header .header-img img{
+  height: 200px;
+}
+
+.account-activation main {
+  width: 100%;
+}
+
+.account-activation main .tbl-contianer {
+  min-height: 300px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.account-activation main .tbl-contianer .tbl-header{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.account-activation main .tbl-contianer .tbl-data{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 10px 0;
+  border-bottom: 2px solid gray;
+}

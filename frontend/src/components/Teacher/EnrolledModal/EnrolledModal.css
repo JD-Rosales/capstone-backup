@@ -1,0 +1,102 @@
+.enrolledModal {
+  color: #000;
+}
+
+.enrolledModal h1 {
+  font-size: 1.5rem;
+}
+
+.enrolledModal h1 > span {
+  color: #42C9A3;
+}
+
+.enrolledModal h1 > .closeBtn {
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+  float: right;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.enrolledModal h1 > .closeBtn:hover {
+  color: red;
+}
+
+.enrolledModal .dataContainer {
+  max-height: 240px;
+  overflow: auto;
+}
+
+.enrolledModal .studentListContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.enrolledModal .studentListHeader {
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.enrolledModal .studentListContainer .userIconContainer {
+  color: #42C9A3;
+}
+
+.enrolledModal .studentListContainer .name {
+  font-weight: bold;
+}
+
+.enrolledModal .studentListContainer .progressContainer {
+  align-items: center;
+  position: relative;
+}
+
+.enrolledModal .studentListContainer .progress {
+  text-align: center;
+  background-color: blue;
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.enrolledModal .studentListContainer > .option {
+  text-align: end;
+  cursor: pointer;
+}
+
+/*  */
+
+.enrolledModal ::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* width */
+
+
+/* Track */
+.enrolledModal ::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+.enrolledModal ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.enrolledModal ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  width: 5px;
+}
+
+/* Handle on hover */
+.enrolledModal ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

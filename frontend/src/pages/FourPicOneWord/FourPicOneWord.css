@@ -1,0 +1,211 @@
+.four-pic {
+  height: 100vh;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: calc(100vw - 600px);
+}
+
+.four-pic > .main {
+  height: 100vh;
+  margin: 0 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.four-pic > .main > .top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 600px;
+  font-size: .9rem;
+}
+
+.four-pic > .main > .top > .difficulty-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.four-pic > .main > .top > .difficulty-container > select {
+  background-color: inherit;
+  font-family: inherit;
+  color: #42C9A3;
+  border: none;
+  outline: none;
+}
+
+.four-pic > .main > .top > .btn-container {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+}
+
+.four-pic > .main > .top > .btn-container > button {
+  background-color: inherit;
+  font-family: inherit;
+  color: #42C9A3;
+  outline: none;
+  border: none;
+  width: 70px;
+}
+
+.four-pic > .main > .top > .btn-container > button:hover {
+  cursor: pointer;
+}
+
+.four-pic > .main > .top > .btn-container > .divider {
+  border-left: 2px solid white;
+  height: 20px;
+  position: relative;
+}
+
+.four-pic > .main > .top > .lives-container {
+  justify-self: end;
+  display: flex;
+}
+
+.four-pic > .main > .top > .lives-container > .filled-heart{
+  color: red;
+  font-size: 1.5rem;
+}
+
+.four-pic > .main > .top > .lives-container > .outlined-heart{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.four-pic > .main > .picture-container {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  background-color:#182142;
+  margin: 10px 0 10px 0;
+}
+
+.four-pic > .main > .picture-container > img {
+  width: 100%;
+  height: 100%;
+}
+
+.four-pic > .main > .bottom-indicator {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 600px;
+  font-size: .9rem;
+}
+
+.four-pic > .main > .bottom-indicator > span > span {
+  color: #42C9A3;
+}
+
+.four-pic > .main > .bottom-indicator > span:nth-child(2) {
+  justify-self: center;
+}
+
+.four-pic > .main > .bottom-indicator > span:nth-child(3) {
+  justify-self: end;
+}
+
+.four-pic > .main > .bottom-controls {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.four-pic > .main > .bottom-controls > button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.four-pic > .main > .bottom-controls button > .btn-icon-backspace {
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.four-pic > .main > .bottom-controls button > .btn-icon-submit {
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.four-pic > .main > .bottom-controls button:nth-child(1) {
+  justify-self: start;
+  background-color: maroon;
+}
+
+.four-pic > .main > .bottom-controls > .answer-container {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.four-pic > .main > .bottom-controls > .answer-container > button {
+  width: 45px;
+  height: 45px;
+  background-color: var(--navyBlue);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.four-pic > .main > .bottom-controls > .answer-container > button > img {
+  width: 100%;
+  height: 100%;
+}
+
+.four-pic > .main > .bottom-controls > .answer-container > .blank-answer {
+  width: 45px;
+  height: 45px;
+  background-color: var(--navyBlue);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.four-pic > .main > .bottom-controls > button:nth-child(3) {
+  justify-self: end;
+  background-color: green;
+}
+
+.four-pic > .main > .asl-button-container {
+  width: 700px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+.four-pic > .main > .asl-button-container > button {
+  width: 50px;
+  height: 50px;
+  background-color: #101931;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+.four-pic > .main > .asl-button-container > button:hover {
+  cursor: pointer;
+}
+
+.four-pic > .main > .asl-button-container > button > img {
+  width: 100%;
+  height: 100%;
+  text-indent: -10000px
+}

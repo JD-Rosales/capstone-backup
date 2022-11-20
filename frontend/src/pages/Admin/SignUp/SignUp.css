@@ -1,0 +1,55 @@
+.admin-signup {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../../assets/svg/login-signup.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-signup .back_home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.admin-signup .container {
+  height: 530px;
+  width: 600px;
+  border-radius: 20px;
+  color: #182240;
+  padding: 50px 60px 50px 60px;
+  background-color: #fff;
+}
+
+.admin-signup > .container > h1 > span{
+  color:#43c9a3;
+}
+
+.admin-signup > .container > span {
+  font-weight: 100;
+  font-size: .9rem;
+}
+
+.admin-signup > .container > h1 > img {
+  height: 35px;
+  width: 35px;
+  float: right;
+  cursor: pointer;
+}
+
+.admin-signup > .container .invisible_margin {
+  margin-bottom: 10px;
+}

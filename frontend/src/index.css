@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+:root{
+  --backgroundColor: #1d2549;
+  --navyBlue: #182240;
+  --aquaGreen: #42C9A3;
+  --whiteGray: #F0F0F0;
+  --sidebarMargin: 300px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1d2549;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--aquaGreen);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #555; */
+}
+
+/* MUI global styles */
+
+/* Loading Button true  */
+.MuiLoadingButton-loading {
+  background-color: var(--aquaGreen) !important;
+  /* opacity: .8; */
+}
+
+/* end MUI global styles */
+
+/* https://fkhadra.github.io/react-toastify/how-to-style/ */
+
+.Toastify__toast {
+  background-color: var(--aquaGreen);
+  /* border-radius: 15px; */
+  font-size: 1rem;
+  color: var(--navyBlue);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.Toastify__toast-body {
+  margin: auto;
+  flex: none;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', 'sans-serif';
+  line-height: 1rem;
+}
+
+.Toastify__toast--error {
+}
+
+.Toastify__toast--success {
+}
+/*  */

@@ -1,0 +1,69 @@
+.user-login {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../assets/svg/login-signup.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-login .back_home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.user-login > .container {
+  height: 450px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #182240;
+  padding: 60px 60px 60px 60px;
+}
+
+.user-login > .container > h1 > span{
+  color:#43c9a3;
+}
+
+.user-login > .container > span {
+  font-weight:400;
+  font-size: .9rem;
+}
+
+.user-login > .container > h1 > img {
+  height: 35px;
+  width: 35px;
+  float: right;
+  cursor: pointer;
+}
+
+.user-login > .container > .forgetPassword {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+@media (min-width:320px ) and (max-width:600px) {
+  .user-login {
+    background-image: none;
+    background-color: #fff;
+  }
+
+  .user-login .container .back_modal {
+    width: 30px;
+    height: 30px;
+  }
+}
